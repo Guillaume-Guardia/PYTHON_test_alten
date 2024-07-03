@@ -42,3 +42,7 @@ vous pouvez lancer le front-end angular avec la commande 'ng serve'
 # Bonus
 
 Vous pouvez ajouter des tests Postman ou Swagger pour valider votre API
+
+admin = gui
+adress = gui@gui.gui
+mdp = gui
