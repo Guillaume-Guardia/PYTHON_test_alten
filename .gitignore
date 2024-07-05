@@ -1,3 +1,6 @@
 .vscode
 .venv
 *.pyc
+front/*
+**.pyc
+**/__pycache__/**

@@ -16,9 +16,10 @@ Including another URLconf
 """
 
 from django.urls import path
-
-from . import views
+from .views import hello_world, index, ProductAPIView
 
 urlpatterns = [
-    path("", views.index, name="index"),
+    path("", index, name="index"),
+    path("hello/", hello_world, name="hello_world"),
+    path("product/", ProductAPIView.as_view()),
 ]
