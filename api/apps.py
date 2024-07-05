@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FirstbackConfig(AppConfig):
+class ApiConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "firstback"
+    name = "api"
